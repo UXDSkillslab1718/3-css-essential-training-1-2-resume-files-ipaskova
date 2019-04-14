@@ -1,52 +1,109 @@
+html{
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
 body{
 	background: white;
 	color: black;
-	font-size: 16px;
-
-font-family: 'Quicksand', sans-serif;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+	margin:0;
 
 }
+
 /*-------------- Links ------------------------*/
 a { 
-	color: #2B2D42;
+	color: #C5ECF8;
 }
 a:hover{
 	text-decoration: none;
 }
 /*-------------- Header and Footer ------------------------*/
 header, footer{
-	background: lightblue;
+	background: white;
 }
+/* Header */
+.profile-img {
+	border-radius: 50%;
+	float:20px;
+}
+
 header h1 ,header h2 {
 	color:white;
 	font-family: 'Acme', sans-serif;
-	text-align: left;
 }
 header p{
- text-align: left;
+ color:white;
+ text-align: center;
  }
+
+/* Footer */
  footer {
 	text-align: center;
 }
+footer h2 {
+	color:white
+}
+footer p {
+	color:white;
+}
+
 /*-------------- Headings ------------------------*/
 h1{
-	font-size: 50px;
+	font-size: 70px;
 	font-weight: 200;
+	text-align: center;
+	margin: 0;
 }
 h2{
-	color:#2B2D42;
+	color:black;
 	font-size: 30px;
 	font-family: 'Playfair Display SC', serif;
 	text-align: center;
+	margin:0;
+	
 }
 h3 {
-	color:lightblue;
+	color:black;
 	font-size: 21px;
 	font-family: 'Playfair Display SC', serif;
 	text-align: center;
 }
+
 /*-------------- Paragraphs ------------------------*/
 p{
 	line-height: 1.5;
 	text-align: center;
+	margin:0;
+	padding: 20px;
+}
+/*-------------- Education ------------------------*/
+.put-background {
+	background: white;
+}
+/*-------------- LAYOUT ------------------------*/
+.content-wrap{
+	max-width:950px;
+	margin: 0 auto;
+	padding: 50px;
+	overflow: auto;
+	background: #A8304F;
+	
+}
+h2,p{ 
+	margin:0; 
+}
+.col-narrow {
+	width:30%;
+	float:left;
+	
+	min-height: 175px;
+}
+.col-wide{
+	width: 70%;
+	float:left;
+	
+	min-height: 290px;
 }
