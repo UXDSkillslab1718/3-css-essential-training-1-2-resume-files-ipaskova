@@ -2,23 +2,51 @@ body{
 	background: white;
 	color: black;
 	font-size: 16px;
+
+font-family: 'Quicksand', sans-serif;
+
 }
-	a { 
+/*-------------- Links ------------------------*/
+a { 
 	color: #2B2D42;
 }
 a:hover{
 	text-decoration: none;
 }
-
+/*-------------- Header and Footer ------------------------*/
 header, footer{
 	background: lightblue;
 }
 header h1 ,header h2 {
 	color:white;
+	font-family: 'Acme', sans-serif;
+	text-align: left;
+}
+header p{
+ text-align: left;
+ }
+ footer {
+	text-align: center;
+}
+/*-------------- Headings ------------------------*/
+h1{
+	font-size: 50px;
+	font-weight: 200;
 }
 h2{
 	color:#2B2D42;
+	font-size: 30px;
+	font-family: 'Playfair Display SC', serif;
+	text-align: center;
 }
 h3 {
 	color:lightblue;
+	font-size: 21px;
+	font-family: 'Playfair Display SC', serif;
+	text-align: center;
+}
+/*-------------- Paragraphs ------------------------*/
+p{
+	line-height: 1.5;
+	text-align: center;
 }
