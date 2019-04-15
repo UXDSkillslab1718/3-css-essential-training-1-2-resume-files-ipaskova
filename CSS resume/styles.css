@@ -5,7 +5,7 @@ html{
 	box-sizing: inherit;
 }
 body{
-	background: white;
+	/*background: white;*/
 	color: black;
 	font-family: 'Quicksand', sans-serif;
 	font-size: 17px;
@@ -22,7 +22,7 @@ a:hover{
 }
 /*-------------- Header and Footer ------------------------*/
 header, footer{
-	background: white;
+	background: #ABE3E7;
 }
 /* Header */
 .profile-img {
@@ -84,7 +84,8 @@ p{
 }
 /*-------------- Education ------------------------*/
 .education {
-	background: white;
+	/*background: white*/
+	
 }
 h3~p{
 	margin:0;
@@ -92,11 +93,16 @@ h3~p{
 .education-descr p:first-of-type{
 	margin-top:0;
 	}
-	.education-descr{
+.education-descr{
 		margin-bottom: 25px;
 	}
 
+.hobbies-education{
+	background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255, 255, 0.5)),
+	 url(nov.jpg) no-repeat;
+	 background-size: cover;
 
+}
 
 /*-------------- LAYOUT ------------------------*/
 .content-wrap{
