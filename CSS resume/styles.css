@@ -8,14 +8,14 @@ body{
 	background: white;
 	color: black;
 	font-family: 'Quicksand', sans-serif;
-	font-size: 20px;
-	margin:0;
+	font-size: 17px;
+	margin:0; 
 
 }
 
 /*-------------- Links ------------------------*/
 a { 
-	color: #C5ECF8;
+	color: black;
 }
 a:hover{
 	text-decoration: none;
@@ -67,9 +67,12 @@ h2{
 }
 h3 {
 	color:black;
-	font-size: 21px;
+	font-size: 20px;
 	font-family: 'Playfair Display SC', serif;
 	text-align: center;
+	margin:0;
+	padding: 20px;
+	
 }
 
 /*-------------- Paragraphs ------------------------*/
@@ -80,16 +83,28 @@ p{
 	padding: 20px;
 }
 /*-------------- Education ------------------------*/
-.put-background {
+.education {
 	background: white;
 }
+h3~p{
+	margin:0;
+}
+.education-descr p:first-of-type{
+	margin-top:0;
+	}
+	.education-descr{
+		margin-bottom: 25px;
+	}
+
+
+
 /*-------------- LAYOUT ------------------------*/
 .content-wrap{
 	max-width:950px;
 	margin: 0 auto;
 	padding: 50px;
 	overflow: auto;
-	background: #A8304F;
+	background: #ABE3E7;
 	
 }
 h2,p{ 
@@ -97,13 +112,10 @@ h2,p{
 }
 .col-narrow {
 	width:30%;
-	float:left;
-	
-	min-height: 175px;
+	float:left;	
 }
 .col-wide{
 	width: 70%;
 	float:left;
-	
-	min-height: 290px;
+	min-height: 250px;
 }
