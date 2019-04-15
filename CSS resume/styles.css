@@ -102,7 +102,7 @@ h3~p{
 .content-wrap{
 	max-width:950px;
 	margin: 0 auto;
-	padding: 50px;
+	padding: 60px 50px;
 	overflow: auto;
 	background: #ABE3E7;
 	
@@ -118,4 +118,30 @@ h2,p{
 	width: 70%;
 	float:left;
 	min-height: 250px;
+}
+/*-------------- Navigation ------------------------*/
+
+nav{
+	text-align: center;
+	font-size: 20px;
+	background: white ;
+	position: fixed;
+	top:0;
+	width: 100%;
+
+}
+nav a {
+	display: inline-block;
+	padding: 10px 15px;
+	text-decoration: none;
+	font-weight: 700;
+}
+/*-------------- Download button ------------------------*/
+.btn{
+	text-decoration: none;
+	background: black;
+	color:white;
+	font-weight: 900;
+	padding:10px;
+	display: inline-block;
 }
